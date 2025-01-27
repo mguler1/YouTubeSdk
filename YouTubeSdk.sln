@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07432C49-B7D7-40E6-AA4D-6D3004BDCF97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{07537194-1496-40FB-AB0C-586EF2EA3DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{E7D82F1C-8037-45E7-8C9A-2E133BEBA2CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{25EAB493-6D21-44B3-9251-2FDAB2898C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeWebApi", "src\YouTubeWebApi\YouTubeWebApi.csproj", "{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07537194-1496-40FB-AB0C-586EF2EA3DB1} = {07432C49-B7D7-40E6-AA4D-6D3004BDCF97}
+		{E7D82F1C-8037-45E7-8C9A-2E133BEBA2CE} = {07432C49-B7D7-40E6-AA4D-6D3004BDCF97}
+		{25EAB493-6D21-44B3-9251-2FDAB2898C51} = {07432C49-B7D7-40E6-AA4D-6D3004BDCF97}
+		{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16} = {07537194-1496-40FB-AB0C-586EF2EA3DB1}
+	EndGlobalSection
+EndGlobal
