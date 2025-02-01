@@ -26,6 +26,7 @@ namespace YouTubeWebApi.Infrastructure.Context
                 };
                 var video = new VideoEntity
                 {
+                    Id = "1",
                     CreatedAt = DateTime.Now,
                     Description = "Test Description",
                     ThumbnailUrl = "https://test.com",

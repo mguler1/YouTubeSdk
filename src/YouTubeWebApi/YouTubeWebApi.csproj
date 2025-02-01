@@ -12,8 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\EndPoints\" />
-    <Folder Include="Infrastructure\Services\" />
+    <ProjectReference Include="..\Common\YouTubeCommon\YouTubeCommon.csproj" />
   </ItemGroup>
 
 </Project>
