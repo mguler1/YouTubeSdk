@@ -28,6 +28,12 @@ namespace YouTubeWebApi.Infrastructure.Services
             };
         }
 
+        public async Task<bool> ValidateUserToken(string userToken)
+        {
+            var user = dbContext.Users.FirstOrDefault(x => x.LastUserToken == userToken);
+            return user is not null;
+        }
+
         private async  Task StoreUserToken(string email, string token)
         {
             var user = dbContext.Users.FirstOrDefault(x => x.EmailAddress == email);
