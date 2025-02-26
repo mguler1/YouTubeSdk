@@ -21,7 +21,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//app.MapUserTokenMiddleware();
 app.MapUserEndpoints();
+app.MapVideosEndpoints();
 var dbContextScope = app.Services.CreateScope();
 var dbContext = dbContextScope.ServiceProvider.GetRequiredService<YouTubeDbContext>();
 dbContext.Database.EnsureCreated();
