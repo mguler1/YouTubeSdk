@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeCommon", "src\Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Client", "src\Clients\YoutubeApi.Client\YoutubeApi.Client.csproj", "{72D1A06E-EE32-4F8D-B4B7-2CD01F40EB1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youtube.Client.AspNetCore", "src\Clients\Youtube.Client.AspNetCore\Youtube.Client.AspNetCore.csproj", "{C8C28CB3-7A18-4E08-87B6-D1118AF47E33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{72D1A06E-EE32-4F8D-B4B7-2CD01F40EB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72D1A06E-EE32-4F8D-B4B7-2CD01F40EB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72D1A06E-EE32-4F8D-B4B7-2CD01F40EB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C28CB3-7A18-4E08-87B6-D1118AF47E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C28CB3-7A18-4E08-87B6-D1118AF47E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C28CB3-7A18-4E08-87B6-D1118AF47E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C28CB3-7A18-4E08-87B6-D1118AF47E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{22581D0F-CAD8-4F2E-BF05-B4CE0BD8CA16} = {07537194-1496-40FB-AB0C-586EF2EA3DB1}
 		{15D3E2A7-3C50-4419-8672-F179196F33F0} = {25EAB493-6D21-44B3-9251-2FDAB2898C51}
 		{72D1A06E-EE32-4F8D-B4B7-2CD01F40EB1C} = {E7D82F1C-8037-45E7-8C9A-2E133BEBA2CE}
+		{C8C28CB3-7A18-4E08-87B6-D1118AF47E33} = {E7D82F1C-8037-45E7-8C9A-2E133BEBA2CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAB8DB30-2947-4A7C-8D31-A40E51C5A795}
